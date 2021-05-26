@@ -171,7 +171,7 @@ function createREADME(input) {
 
 
     //README
-    fs.writeFile("./example/README-sample.md", README, (err) => {
+    fs.writeFile("./sample/README-sample.md", README, (err) => {
         if (err) {
             throw err;
         } else {
